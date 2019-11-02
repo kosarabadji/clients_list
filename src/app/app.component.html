@@ -1,0 +1,29 @@
+<md-sidenav-container>
+    <md-sidenav class="md-sidenav" mode="side" [opened]="showMenu">
+        <button  class="toggle-icon-close"
+                 *ngIf="showMenu"
+                 (click)="toggleMenu()"
+                 md-icon-button >
+            <md-icon color="primary">close</md-icon>
+        </button>
+        <app-search></app-search>
+        <app-users-list></app-users-list>
+    </md-sidenav>
+
+
+    <button *ngIf="!showMenu"
+            class="toggle-icon"
+            (click)="toggleMenu()"
+            md-icon-button>
+        <md-icon color="primary">menu</md-icon>
+    </button>
+    <app-user-details></app-user-details>
+</md-sidenav-container>
+
+
+
+
+
+
+
+

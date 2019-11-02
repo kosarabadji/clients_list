@@ -1,0 +1,8 @@
+<md-input-container class="search">
+  <input mdInput placeholder="Search"
+         type="search"
+         [(ngModel)]="searchQuery"
+         (ngModelChange)="search($event)">
+
+</md-input-container>
+<md-divider></md-divider>

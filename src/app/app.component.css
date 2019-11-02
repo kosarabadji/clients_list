@@ -1,0 +1,16 @@
+.toggle-icon {
+    cursor: pointer;
+}
+
+.toggle-icon-close {
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+}
+
+@media (max-width: 768px) {
+
+    .users-list, .md-sidenav {
+        min-width: 100%;
+    }
+}

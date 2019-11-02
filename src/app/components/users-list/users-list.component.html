@@ -1,0 +1,11 @@
+<md-nav-list  *ngIf="results" class="users-list">
+  <md-list-item *ngFor="let user of results" (click)="chooseUser(user)">
+      <img  class="md-list-item__avatar" md-list-avatar   [src]="user.general.avatar" alt="..." padding>
+      <h3 class="md-list-item__title"> {{user.general.firstName + ' ' + user.general.lastName}} </h3>
+  </md-list-item>
+    <p *ngIf="results.length < 1" class="no-results">
+        No Results, Sorry
+    </p>
+</md-nav-list>
+
+

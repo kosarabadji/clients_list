@@ -1,0 +1,15 @@
+
+.md-list-item__title {
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.users-list {
+    min-width: 245px;
+    overflow-x: hidden;
+}
+
+.no-results {
+    width: 100%;
+    text-align: center;
+}

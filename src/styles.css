@@ -1,0 +1,12 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+
+md-sidenav-container {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
